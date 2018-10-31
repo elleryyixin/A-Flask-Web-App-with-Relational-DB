@@ -3,7 +3,7 @@ import json
 
 cnx = pymysql.connect(host='localhost',
                               user='root',
-                              password='Cyx1996!',
+                              password='dbuser',
                               db='lahman2017_raw',
                               charset='utf8mb4',
                               cursorclass=pymysql.cursors.DictCursor)
